@@ -1,4 +1,4 @@
-# Project 6 -- API showdown
+# Project 6 -- API showdown -- v1.0.0
 
 [If you ever need holding](https://www.youtube.com/watch?v=lpp20Ip7I4E&ab_channel=abhijitgutal)... call an API
 
