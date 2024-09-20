@@ -33,4 +33,3 @@ Each Verb is handled independently in a page
 * [x] Site is responsive
 * [x] Includes Favicon
 * [x] Console.log use is kept to a minimum
-
