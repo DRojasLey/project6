@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" Content="width=device-width, initial-scale=1.0">
+    <title>API consumption Showcase</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../resources/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../resources/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../resources/images/favicon-16x16.png">
+    <link rel="manifest" href="../resources/images/site.webmanifest">
+</head>
+<body>
+    <div class="mainContainer" id="mainContainer">
+        <h1 class="mainTitle"> DELETE API SHOWCASE</h1>
+        <section class="topContainer" id="deleteTopContainer">
+            <h2 class="contitle">DELETE</h2>
+            <p>The Delete call is executed on existing data</p>
+            <p>Same as in PUT, the data is not actually deleted <br> in the server as shown:</p>
+            <a href="https://jsonplaceholder.typicode.com/guide/#:~:text=%7D)%3B-,Important%3A%20resource%20will%20not%20be%20really%20updated%20on%20the%20server%20but%20it%20will%20be%20faked%20as%20if.,-Filtering%20resources">Here</a>
+            <br>
+            <div class="verbContainer deleteCont" id="deleteContainer">
+                <button class="button1" id="deleteButton">DELETE</button>
+            </div>
+        </section>
+    </div>
+    <nav class="links">
+        <ul class="linksList">
+            <li class="linku"><a href="../index.html">GET</a></li>
+            <li class="linku"><a href="./post.html">POST</a></li>
+            <li class="linku"><a href="./put.html">PUT</a></li>
+            <li class="linku"><a href="./delete.html">DELETE</a></li>
+            <li class="linku"><a href="./error.html">ERROR</a></li>
+        </ul>
+    </nav>
+</body>
+<script src="../scripts/delete.js"></script>
+</html>
